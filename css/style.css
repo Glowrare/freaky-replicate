@@ -1,0 +1,224 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box !important;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+.top-section {
+    background-image: url(../images/pexels-cesar-perez-733745.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
+    background: no-repeat cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+nav div h3 {
+    font-size: 2rem;
+}
+
+.pink-color {
+    color: #ff5959;
+}
+
+.dark-color {
+    color: #233142;
+}
+
+.light-color {
+    color: #5E6271;
+}
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.menu-items li a:hover{
+    background: #facf5a;
+    color: #91640F;
+    padding: 10px 15px;
+}
+
+/* .menu-items li a:active {
+    background-color: #facf5a;
+    color: #91640F;
+    padding: 10px 15px;
+} */
+
+.introduction-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    line-height: 5rem;
+    padding-bottom: 30px;
+}
+
+.introduction-section h6 {
+    font-size: 1.5rem;
+}
+
+.introduction-section h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
+
+.introduction-section h4 {
+    font-size: 2rem;
+}
+
+.introduction-section h4 span {
+    color: #facf5a;
+}
+
+.down-slider {
+    text-align: center;    
+}
+
+.down-slider i {
+    color: black;
+    padding-top: 30px;    
+}
+
+.about-me-section {
+    background: white;
+}
+
+.about-me-section .about-me {
+    padding: 70px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-me-image {
+    width: 45%;
+}
+
+.about-me-image img {
+    border-radius: 10px;
+}
+
+.about-me-content {
+    width: 40%;
+    line-height: 1.5rem;
+}
+
+.title-format {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bottom-padding {
+    padding-bottom: 30px;
+}
+
+.top-padding {
+    padding-top: 20px;
+}
+
+.extra-top-padding {
+    padding-top: 80px;
+}
+
+.body-padding {
+    padding: 0 130px;
+}
+
+.details {
+    height: 300px;
+    line-height: 1.5rem;
+    display: flex;
+
+}
+
+.details span i {
+    font-size: 2.5rem;
+}
+
+div .details h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.motivation-section {
+    height: 300px;
+    background-color: #EEf2F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.motivation-content {
+    width: 30%;
+}
+
+.motivation-progress progress {
+    width: 500px;
+}
+
+.projects-section {
+    font-weight: bold;
+    height: 1350px;
+    background-color: white;
+}
+
+.projects-section .project-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects-section .project-images .project {
+    width: 45%;
+}
+
+.projects-section .project-images .project img {
+    border-radius: 10px;
+}
+
+.bottom-section {
+    background-image: url(../images/home-office-336377_1920.jpg);
+    background-attachment: fixed;
+    background: no-repeat cover;
+}
+
+.bottom-section .blog-and-news-section {
+    height: 550px;
+    background-color: hsl(23, 27%, 10%);
+}
+
+.news-blog-image-and-title-tile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.capsule {
+    position: relative;
+}
+
+.news-blog-image img {
+    border-radius: 10px;
+}
+
+.news-blog-title {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    line-height: 1.5rem;
+}
