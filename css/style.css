@@ -38,6 +38,11 @@ nav div h3 {
 .light-color {
     color: #5E6271;
 }
+
+.light-green-color {
+    color: #4f9da6;
+}
+
 .menu-items {
     display: flex;
     flex-direction: row;
@@ -221,4 +226,8 @@ div .details h5 {
     bottom: 0;
     padding: 10px;
     line-height: 1.5rem;
+}
+
+.meet-the-team-section .person-image img {
+    border-radius: 10px;
 }
