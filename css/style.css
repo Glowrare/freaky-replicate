@@ -25,6 +25,21 @@ nav {
 
 nav div h3 {
     font-size: 2rem;
+    font-weight: 700;
+}
+
+.return-to-top {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    background: #233142;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 .pink-color {
@@ -48,13 +63,29 @@ nav div h3 {
     flex-direction: row;
     justify-content: space-evenly;
     width: 500px;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
-.menu-items li a:hover {
+.menu-items li {
+    padding: 10px 15px;
+    background: transparent;
+}
+
+.menu-items li:hover {
     background: #facf5a;
     color: #91640f;
-    padding: 10px 15px;
 }
+
+li ul {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+
 
 /* .menu-items li a:active {
     background-color: #facf5a;
@@ -197,7 +228,7 @@ div .details h5 {
 }
 
 .bottom-section {
-    background-image: url(../images/cup-of-coffee-1280537_1280.jpg);
+    background-image: url(../images/cup-of-coffee-1280537_1920.jpg);
     background-attachment: fixed;
     background: no-repeat cover;
 }
@@ -318,4 +349,29 @@ div .details h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.footer-section {
+    height: 120px;
+    background: white;
+    padding-bottom: 73px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact-details {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+footer .contact-details .contact-details-mini {
+    display: flex;
+}
+
+.right-padding {
+    padding-right: 10px;
 }
