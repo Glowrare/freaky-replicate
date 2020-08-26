@@ -1,5 +1,5 @@
 body {
-    font-family: 'Spartan', sans-serif;
+    font-family: "Spartan", sans-serif;
     box-sizing: border-box !important;
     color: white;
 }
@@ -36,7 +36,7 @@ nav div h3 {
 }
 
 .light-color {
-    color: #5E6271;
+    color: #5e6271;
 }
 
 .light-green-color {
@@ -50,9 +50,9 @@ nav div h3 {
     width: 500px;
 }
 
-.menu-items li a:hover{
+.menu-items li a:hover {
     background: #facf5a;
-    color: #91640F;
+    color: #91640f;
     padding: 10px 15px;
 }
 
@@ -91,12 +91,12 @@ nav div h3 {
 }
 
 .down-slider {
-    text-align: center;    
+    text-align: center;
 }
 
 .down-slider i {
     color: black;
-    padding-top: 30px;    
+    padding-top: 30px;
 }
 
 .about-me-section {
@@ -149,7 +149,6 @@ nav div h3 {
     height: 300px;
     line-height: 1.5rem;
     display: flex;
-
 }
 
 .details span i {
@@ -163,7 +162,7 @@ div .details h5 {
 
 .motivation-section {
     height: 300px;
-    background-color: #EEf2F6;
+    background-color: #eef2f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -198,7 +197,7 @@ div .details h5 {
 }
 
 .bottom-section {
-    background-image: url(../images/home-office-336377_1920.jpg);
+    background-image: url(../images/cup-of-coffee-1280537_1280.jpg);
     background-attachment: fixed;
     background: no-repeat cover;
 }
@@ -228,7 +227,7 @@ div .details h5 {
     line-height: 1.5rem;
 }
 
-.meet-the-team-section{
+.meet-the-team-section {
     height: 570px;
     background: white;
     overflow: hidden;
@@ -239,7 +238,6 @@ div .details h5 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
 }
 
 .meet-the-team-section .person-image img {
@@ -257,28 +255,26 @@ div .details h5 {
     border-radius: 50%;
     margin: 0 0 0.5rem 0;
     position: relative;
-  }
-  .meet-the-team-section > a:active {
+}
+.meet-the-team-section > a:active {
     top: 1px;
     background: #facf5a;
     outline: solid #233142;
-  }
-  .meet-the-team-section > a:focus{
+}
+.meet-the-team-section > a:focus {
     background: #facf5a;
-    
-  }
-  
-  .meet-the-team-section > a:hover{
+}
+
+.meet-the-team-section > a:hover {
     background: #facf5a;
-  }
-  
+}
 
 .person .person-details {
     width: 55%;
 }
 
 .text-height {
-    line-height: 2.0rem;
+    line-height: 2rem;
     font-size: 1.1rem;
 }
 
@@ -298,13 +294,13 @@ div .details h5 {
     scroll-snap-points-x: repeat(300px);
     scroll-snap-type: mandatory;
     */
-  }
+}
 
 .team-details::-webkit-scrollbar {
     display: none;
 }
- 
-  .team-details > div {
+
+.team-details > div {
     scroll-snap-align: start;
     flex-shrink: 0;
     transform-origin: center center;
@@ -314,5 +310,12 @@ div .details h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
+.get-in-touch-section {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
