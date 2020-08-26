@@ -228,6 +228,33 @@ div .details h5 {
     line-height: 1.5rem;
 }
 
+.meet-the-team-section{
+    height: 570px;
+    background: white;
+}
+
+.meet-the-team-section .person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 .meet-the-team-section .person-image img {
     border-radius: 10px;
+}
+
+.person .person-details {
+    width: 55%;
+}
+
+.text-height {
+    line-height: 2.0rem;
+    font-size: 1.1rem;
+}
+
+.team-name-format {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
 }
